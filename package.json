@@ -1,0 +1,23 @@
+{
+  "name": "evm-atomic-swap-core",
+  "version": "1.0.4",
+  "description": "Core logic for atomic swaps on EVM chains",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "web3",
+    "defi",
+    "swap"
+  ],
+  "author": "CryptoDev",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.8.0",
+    "bignumber.js": "^9.1.1"
+  }
+}
